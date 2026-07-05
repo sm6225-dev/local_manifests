@@ -8,7 +8,7 @@
            fetch="https://github.com/LineageOS" />
 
     <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="sm6225" revision="lineage-21.0">
+    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="sm6225" revision="lineage-22.2">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -38,23 +38,28 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-    </project>
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8750/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
+  </project>
 
     <!-- Hals -->
-    <project name="hardware_qcom-caf_sm6225_audio_agm"      path="hardware/qcom-caf/sm6225/audio/agm"                remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="hardware_qcom-caf_sm6225_audio_pal"      path="hardware/qcom-caf/sm6225/audio/pal"                remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="hardware_qcom-caf_sm6225_audio"          path="hardware/qcom-caf/sm6225/audio/primary-hal"        remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="hardware_qcom-caf_sm6225_display"        path="hardware/qcom-caf/sm6225/display"                  remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="hardware_qcom-caf_sm6225_media"          path="hardware/qcom-caf/sm6225/media"                    remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"         remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="vendor_qcom_opensource_dataipa"          path="hardware/qcom-caf/sm6225/dataipa"                  remote="sm6225" revision="lineage-21.0-caf-sm6225" />
-    <project name="device_qcom_sepolicy_vndr"               path="device/qcom/sepolicy_vndr/sm6225"                  remote="sm6225" revision="lineage-21.0-caf-sm6225" />
+    <project name="hardware_qcom-caf_sm6225_audio_agm"      path="hardware/qcom-caf/sm6225/audio/agm"                remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="hardware_qcom-caf_sm6225_audio_pal"      path="hardware/qcom-caf/sm6225/audio/pal"                remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="hardware_qcom-caf_sm6225_audio"          path="hardware/qcom-caf/sm6225/audio/primary-hal"        remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="hardware_qcom-caf_sm6225_display"        path="hardware/qcom-caf/sm6225/display"                  remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="hardware_qcom-caf_sm6225_media"          path="hardware/qcom-caf/sm6225/media"                    remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"         remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="vendor_qcom_opensource_dataipa"          path="hardware/qcom-caf/sm6225/dataipa"                  remote="sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project name="device_qcom_sepolicy_vndr"               path="device/qcom/sepolicy_vndr/sm6225"                  remote="sm6225" revision="lineage-22.2-caf-sm6225" />
 
     <!-- Repos -->
-    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"                                   remote="lineage" revision="lineage-21" />
-    <project name="device_xiaomi_spes-5.15"                 path="device/xiaomi/spes"                                remote="sm6225"  revision="14"  />
-    <project name="vendor_xiaomi_spes-5.15"                 path="vendor/xiaomi/spes"                                remote="sm6225"  revision="14" />
-    <project name="kernel_xiaomi_sm6225"                    path="kernel/xiaomi/sm6225-5.15"                         remote="sm6225"  revision="14" />
-    <project name="kernel_xiaomi_sm6225-devicetrees"        path="kernel/xiaomi/sm6225-devicetrees"                  remote="sm6225"  revision="14" />
-    <project name="kernel_xiaomi_sm6225-modules"            path="kernel/xiaomi/sm6225-modules"                      remote="sm6225"  revision="14" />
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"                                   remote="lineage" revision="lineage-22.2" />
+    <project name="device_xiaomi_spes-5.15"                 path="device/xiaomi/spes"                                remote="sm6225"  revision="15"  />
+    <project name="vendor_xiaomi_spes-5.15"                 path="vendor/xiaomi/spes"                                remote="sm6225"  revision="15" />
+    <project name="kernel_xiaomi_sm6225"                    path="kernel/xiaomi/sm6225-5.15"                         remote="sm6225"  revision="15" />
+    <project name="kernel_xiaomi_sm6225-devicetrees"        path="kernel/xiaomi/sm6225-devicetrees"                  remote="sm6225"  revision="15" />
+    <project name="kernel_xiaomi_sm6225-modules"            path="kernel/xiaomi/sm6225-modules"                      remote="sm6225"  revision="15" />
 </manifest>
