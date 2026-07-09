@@ -51,8 +51,6 @@
     <project name="hardware_qcom-caf_sm6225_audio"          path="hardware/qcom-caf/sm6225/audio/primary-hal"        remote="sm6225" revision="lineage-22.2-caf-sm6225" />
     <project name="hardware_qcom-caf_sm6225_display"        path="hardware/qcom-caf/sm6225/display"                  remote="sm6225" revision="lineage-22.2-caf-sm6225" />
     <project name="hardware_qcom-caf_sm6225_media"          path="hardware/qcom-caf/sm6225/media"                    remote="sm6225" revision="lineage-22.2-caf-sm6225" />
-    <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"         remote="sm6225" revision="lineage-22.2-caf-sm6225" />
-    <project name="vendor_qcom_opensource_dataipa"          path="hardware/qcom-caf/sm6225/dataipa"                  remote="sm6225" revision="lineage-22.2-caf-sm6225" />
     <project name="device_qcom_sepolicy_vndr"               path="device/qcom/sepolicy_vndr/sm6225"                  remote="sm6225" revision="lineage-22.2-caf-sm6225" />
 
     <!-- Repos -->
