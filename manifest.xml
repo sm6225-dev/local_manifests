@@ -34,13 +34,7 @@
 
     <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
     <!-- Hals -->
-    <!--project name="hardware_qcom-caf_sm6225_audio_agm"      path="hardware/qcom-caf/sm6225/audio/agm"                remote="sm6225" revision="lineage-23.2-caf-sm6225" />
-    <project name="hardware_qcom-caf_sm6225_audio_pal"      path="hardware/qcom-caf/sm6225/audio/pal"                remote="sm6225" revision="lineage-23.2-caf-sm6225" />
-    <project name="hardware_qcom-caf_sm6225_audio"          path="hardware/qcom-caf/sm6225/audio/primary-hal"        remote="sm6225" revision="lineage-23.2-caf-sm6225" /-->
-    <project name="android_vendor_qcom_opensource_agm"      path="hardware/qcom-caf/sm6225/audio/agm"                remote="lineage" revision="lineage-23.2-caf-sm8450" groups="qcom,waipio-vendor" />
-    <project name="android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm6225/audio/graphservices" remote="lineage" revision="lineage-23.2-caf-sm8450" groups="qcom" />
-    <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm6225/audio/pal"                remote="lineage" revision="lineage-23.2-caf-sm8450" groups="qcom,waipio-vendor" />
-    <project name="android_hardware_qcom_audio-ar"          path="hardware/qcom-caf/sm6225/audio/primary-hal"        remote="lineage" revision="lineage-23.2-caf-sm8450" groups="qcom,waipio-vendor" />
+    <project name="hardware_qcom_audio"                     path="hardware/qcom-caf/sm6225/audio"                    remote="sm6225" revision="lineage-23.2-caf-sm6225" />
     <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" remote="sm6225" revision="lineage-23.2-legacy-um" />
     <project name="hardware_qcom-caf_sm6225_display"        path="hardware/qcom-caf/sm6225/display"                  remote="sm6225" revision="lineage-23.2-caf-sm6225" />
     <project name="hardware_qcom-caf_sm6225_media"          path="hardware/qcom-caf/sm6225/media"                    remote="sm6225" revision="lineage-23.2-caf-sm6225" />
