@@ -42,9 +42,9 @@
 
     <!-- Repos -->
     <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"                                   remote="lineage" revision="lineage-23.2" />
-    <project name="device_xiaomi_spes-5.15"                 path="device/xiaomi/spes"                                remote="sm6225"  revision="16"  />
-    <project name="vendor_xiaomi_spes-5.15"                 path="vendor/xiaomi/spes"                                remote="sm6225"  revision="16" />
-    <project name="kernel_xiaomi_sm6225"                    path="kernel/xiaomi/sm6225-5.15"                         remote="sm6225"  revision="16" />
-    <project name="kernel_xiaomi_sm6225-devicetrees"        path="kernel/xiaomi/sm6225-devicetrees"                  remote="sm6225"  revision="16" />
-    <project name="kernel_xiaomi_sm6225-modules"            path="kernel/xiaomi/sm6225-modules"                      remote="sm6225"  revision="16" />
+    <project name="device_xiaomi_spes-5.15"                 path="device/xiaomi/spes"                                remote="sm6225"  revision="16-legacy"  />
+    <project name="vendor_xiaomi_spes-5.15"                 path="vendor/xiaomi/spes"                                remote="sm6225"  revision="16-legacy" />
+    <project name="kernel_xiaomi_sm6225"                    path="kernel/xiaomi/sm6225-5.15"                         remote="sm6225"  revision="16-legacy" />
+    <project name="kernel_xiaomi_sm6225-devicetrees"        path="kernel/xiaomi/sm6225-devicetrees"                  remote="sm6225"  revision="16-legacy" />
+    <project name="kernel_xiaomi_sm6225-modules"            path="kernel/xiaomi/sm6225-modules"                      remote="sm6225"  revision="16-legacy" />
 </manifest>
