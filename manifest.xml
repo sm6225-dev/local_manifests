@@ -47,4 +47,5 @@
     <project name="kernel_xiaomi_sm6225"                    path="kernel/xiaomi/sm6225-5.15"                         remote="sm6225"  revision="16-legacy" />
     <project name="kernel_xiaomi_sm6225-devicetrees"        path="kernel/xiaomi/sm6225-devicetrees"                  remote="sm6225"  revision="16-legacy" />
     <project name="kernel_xiaomi_sm6225-modules"            path="kernel/xiaomi/sm6225-modules"                      remote="sm6225"  revision="16-legacy" />
+    <project name="vendor_xiaomi_camera"                    path="vendor/xiaomi/camera"                              remote="sm6225"  revision="main" />
 </manifest>
